@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E31933B327CBE358002B4A79 /* SliserGameSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31933B227CBE358002B4A79 /* SliserGameSwiftUIApp.swift */; };
+		E31933B327CBE358002B4A79 /* SliderGameSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31933B227CBE358002B4A79 /* SliderGameSwiftUIApp.swift */; };
 		E31933B527CBE358002B4A79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31933B427CBE358002B4A79 /* ContentView.swift */; };
 		E31933B727CBE358002B4A79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31933B627CBE358002B4A79 /* Assets.xcassets */; };
 		E31933BA27CBE358002B4A79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31933B927CBE358002B4A79 /* Preview Assets.xcassets */; };
+		E31933C127CBE378002B4A79 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31933C027CBE378002B4A79 /* ButtonView.swift */; };
+		E31933C327CBE4F6002B4A79 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E31933C227CBE4F6002B4A79 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E31933AF27CBE358002B4A79 /* SliserGameSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliserGameSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31933B227CBE358002B4A79 /* SliserGameSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliserGameSwiftUIApp.swift; sourceTree = "<group>"; };
+		E31933B227CBE358002B4A79 /* SliderGameSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGameSwiftUIApp.swift; sourceTree = "<group>"; };
 		E31933B427CBE358002B4A79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E31933B627CBE358002B4A79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E31933B927CBE358002B4A79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E31933C027CBE378002B4A79 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E31933C227CBE4F6002B4A79 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +55,10 @@
 		E31933B127CBE358002B4A79 /* SliserGameSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				E31933B227CBE358002B4A79 /* SliserGameSwiftUIApp.swift */,
+				E31933B227CBE358002B4A79 /* SliderGameSwiftUIApp.swift */,
 				E31933B427CBE358002B4A79 /* ContentView.swift */,
+				E31933C027CBE378002B4A79 /* ButtonView.swift */,
+				E31933C227CBE4F6002B4A79 /* SliderView.swift */,
 				E31933B627CBE358002B4A79 /* Assets.xcassets */,
 				E31933B827CBE358002B4A79 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E31933B527CBE358002B4A79 /* ContentView.swift in Sources */,
-				E31933B327CBE358002B4A79 /* SliserGameSwiftUIApp.swift in Sources */,
+				E31933C327CBE4F6002B4A79 /* SliderView.swift in Sources */,
+				E31933B327CBE358002B4A79 /* SliderGameSwiftUIApp.swift in Sources */,
+				E31933C127CBE378002B4A79 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

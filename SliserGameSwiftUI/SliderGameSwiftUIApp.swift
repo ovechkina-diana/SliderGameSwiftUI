@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SliserGameSwiftUIApp: App {
+struct SliderGameSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
